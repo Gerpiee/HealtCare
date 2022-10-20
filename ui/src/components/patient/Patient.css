@@ -1,0 +1,85 @@
+.home-icon{
+    cursor: pointer;
+    border-radius: 5px;
+    color: #1A76D2;
+
+}
+.home-icon:hover{
+    color: black;
+
+    
+}
+.top-elements ul li{
+display: inline;
+text-decoration: none;
+float: left;
+padding: 0px 20px;
+}
+.top-elements ul li a{
+    text-decoration: none;
+    color: #3598dc;
+    padding: 5px;
+    border-radius: 5px;
+
+}
+.top-elements ul li a:hover{
+    color: white;
+    background-color: #0769AC;
+}
+.right-items{
+   float: right;
+}
+.top-table ul li{
+display: inline;
+text-decoration: none;
+float: left;
+padding: 0px 20px;
+}
+.top-table ul li a{
+    text-decoration: none;
+    color: #3598dc;
+    padding: 5px;
+    border-radius: 5px;
+
+}
+.t-p{
+    background-color: white;
+    color: #0769AC;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 10px;
+    padding: 3px;
+}
+.t-p:hover{
+    
+    background-color: #0769AC;
+    color: white;
+}
+.my-grids{
+    margin-top: 10px;
+
+}
+
+.showing{
+    margin-top: 10%;
+}
+
+.sprintbtn{
+    margin-top: 40%;
+}
+.registerp-top{
+    margin-top: 1%;
+}
+.top-link{
+    text-decoration: none;
+    color: #1A76D2;
+  
+}
+.homeicons{
+    color: #0769AC;
+    border-radius: 5px;
+}
+.homeicons:hover{
+    background-color: #0769AC;
+    color: white;
+}

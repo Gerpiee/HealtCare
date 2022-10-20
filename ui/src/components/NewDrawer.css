@@ -1,0 +1,41 @@
+.mybutton{
+    position: absolute;
+    color: black;
+    background-color: yellow;
+    top: 1%;
+    right: 12%;
+    width: 7%;
+    height:100%;
+    cursor: pointer;
+    border: none;
+    margin-right: 1%;
+}
+.mybutton:hover{
+    background-color: #EEEEEE;
+}
+.mylogo{
+    width: 14%;
+    cursor: pointer;
+}
+.myadmin{
+    position: absolute;
+    top: 40;
+    right: 5%;
+    text-align: center;
+    cursor: pointer;
+    margin-right: 1%;
+}
+.myquestion{
+    cursor: pointer;
+    position: absolute;
+    top: 30%;
+    right: 3%;
+
+}
+.mybell{
+    cursor: pointer;
+    position: absolute;
+    top: 30%;
+    right: 10.5%;
+
+}

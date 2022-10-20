@@ -1,0 +1,145 @@
+*{
+  margin: 0;
+  padding: 0;
+  
+}
+
+.container{
+  display: grid;
+
+  grid-template-rows:100vh;   /* Grid satır yüksekliği */
+  grid-template-columns:32% 68%; /* Grid sütun Genişliği */
+
+}
+.left{
+
+ color: white;
+
+
+   
+}
+.right{
+   
+    background-color: pink;
+}
+.bg-i{
+
+background-image: url('https://calhospital.org/wp-content/uploads/2022/08/Hospital-Council-Did-You-Know-August.jpg');
+background-size: cover;
+height: 100vh;
+
+
+}
+.bg{
+  background-color:#1d33e1;
+  height: 100vh;
+  opacity: 0.7;
+}
+.elements{
+  text-align: left;
+   position: absolute;
+ width:30%;
+ top: 40%;
+left: 2%;
+}
+.feature{
+  list-style-type:none; 
+}
+.head1{
+  font-weight: 600;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+  text-shadow: 0px 3px 1px #000;
+}
+.healthcare {
+     font-weight: 500;
+    font-size: 14px;
+    margin-top: 10px;
+    background: #5a6ae1;
+    padding: 15px 15px;
+    margin: 20px auto;
+    text-shadow: 0px 3px 1px rgb(0 0 0 / 30%);
+}
+.elements ul{
+  display: block;
+    list-style-type: none;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+    text-decoration: none;
+}
+.feature li{
+      font-size: 14px;
+    font-weight: 500;
+    margin-bottom: 5px;
+    display: block;
+    text-shadow: 0px 3px 1px rgb(0 0 0 / 30%);
+}
+
+
+
+.footer-link{
+  text-decoration: none;
+font-weight: 600;
+}
+.footerl{
+  text-align: center;
+  position: absolute;
+  display: block;
+  bottom: 2%;
+  left: 5%;
+
+}
+.right{
+  background-color: #FDFDFF;
+  text-align: center;
+}
+.right-container{
+  margin-top: 5% ;
+ 
+  
+  
+
+}
+.danpheh{
+  margin-bottom: 10px;
+  width: 20%;
+
+}
+.textfield{
+  margin-top: 10px;
+  padding: 5px;
+
+}
+.remember{
+  position: absolute;
+   flex-direction: row;
+   text-align: center;
+  left: 55.3%;
+   
+
+}
+.btn-forgot{
+  flex-direction: row;
+}
+
+.signbtn{
+  background-color: #5867dd;
+    border-color: #5867dd;
+    color: #fff;
+    height: 50px;
+    padding-left: 2em;
+    padding-right: 2em;
+    font-size: 15px;
+    -webkit-box-shadow: 0 4px 16px 0 rgb(88 103 221 / 15%);
+    box-shadow: 0 4px 16px 0 rgb(88 103 221 / 15%);
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 20%;
+}
+.signbtn:hover{
+  background-color: #276090;
+ 
+}
